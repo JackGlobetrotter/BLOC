@@ -205,7 +205,8 @@
       "artifactName": "${productName}.${ext}",
       "target": [
         "portable"
-      ]
+      ],
+      "sign": "./customSign.js"
     },
     "linux": {
       "artifactName": "${productName}.${ext}",
