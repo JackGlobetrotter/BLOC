@@ -147,6 +147,10 @@ function Setup() {
     });
   };
 
+  const stopLineScreen = () => {
+    window.electron.ipcRenderer.sendMessage('runmode-change', false);
+  };
+
   return (
     <Container style={{ height: '100%' }}>
       <Grid
@@ -351,7 +355,7 @@ function Setup() {
         )}
         {isRunning ? (
           <Grid item>
-            <Button variant="outlined" color="error">
+            <Button variant="outlined" color="error" onClick={stopLineScreen}>
               Abort
             </Button>
           </Grid>

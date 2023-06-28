@@ -46,6 +46,8 @@ export default function initIPC() {
       if (!data) lineWindow?.close();
     } else if (_event.sender.id === aboutWindow?.webContents.id) {
       if (!data) aboutWindow.close();
+    } else if (_event.sender.id === mainWindow?.webContents.id) {
+      if (!data) lineWindow?.close();
     }
   });
 
