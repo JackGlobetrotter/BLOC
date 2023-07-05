@@ -6,6 +6,7 @@
 2. [Instructions](#instructions)
 3. [Changelog](#changelog)
 4. [Building and Contributing](#build)
+5. [Other Documents](#docs)
 
 <a id="downloads"></a>
 
@@ -105,3 +106,11 @@ KEYCHAIN_PROFILE=<KEYCHAIN NAME GIVEN IN THE PREVIOUS STEP>
 ## Contributing
 
 To come.
+
+<a id="docs"></a>
+
+## Other documents
+
+### [Assessment for paper line bissection](https://github.com/JackGlobetrotter/bloc/blob/main/docs/FeuilleDePassation.pdf) ([Download](https://raw.githubusercontent.com/JackGlobetrotter/bloc/main/docs/FeuilleDePassation.pdf))
+
+- Document used to score paper line bisection and defining pseudo-random letter and line position order
