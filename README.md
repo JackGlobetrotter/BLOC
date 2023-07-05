@@ -16,12 +16,18 @@ All downloads are hosted on the [release page](https://github.com/JackGlobetrott
 
 ### Windows
 
+#### Portable Version (No installation required)
+
 - [BLOC.exe](https://github.com/JackGlobetrotter/bloc/releases/latest/download/BLOC.exe)
 - Only x64 OS versions are supported
 - A waring may pop up during download, as the software has not been signed with a Windows authorized certificat due to cost reasons.
 - When first opening the application you will see a message popup due to this software not beeing verified: \
   <img src="https://github.com/JackGlobetrotter/bloc/blob/main/docs/windowsUnverifiedMessage.png?raw=true" alt="drawing" style="width:300px;"/>
 - Click `More info` and `Run anyway`
+
+#### Installer
+
+- [BLOC-SETUP.exe](https://github.com/JackGlobetrotter/bloc/releases/latest/download/BLOC-SETUP.exe)
 
 ### MacOS
 

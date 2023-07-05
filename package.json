@@ -202,11 +202,17 @@
       ]
     },
     "win": {
-      "artifactName": "${productName}.${ext}",
       "target": [
-        "portable"
+        "portable",
+        "nsis"
       ],
       "sign": "./customSign.js"
+    },
+    "portable": {
+      "artifactName": "${productName}.${ext}"
+    },
+    "nsis": {
+      "artifactName": "${productName}-SETUP.${ext}"
     },
     "linux": {
       "artifactName": "${productName}.${ext}",
