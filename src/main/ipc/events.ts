@@ -9,7 +9,7 @@ import {
   getMonitorById,
   getPrimaryMonitor,
 } from '../screenHelper';
-import { mainWindow } from '../window/mainWindow';
+import { autoUpdater, mainWindow } from '../window/mainWindow';
 import { aboutWindow } from '../window/aboutWindow';
 
 export default function initIPC() {
@@ -68,5 +68,18 @@ export default function initIPC() {
     if (event.sender.id === aboutWindow?.webContents.id) {
       aboutWindow.setSize(data.width, data.heigth + 30);
     }
+  });
+
+  ipcMain.handle('get-app-update', () => {
+    const updater = autoUpdater;
+    if (updater !== null)
+      return {
+        currentVersion: autoUpdater?.currentVersion,
+        newVersion: autoUpdater?.newVersion,
+        hasUpdate: autoUpdater?.hasUpdate(),
+        isDownloaded: autoUpdater?.isDownloaded,
+        failed: autoUpdater?.failed,
+      };
+    return null;
   });
 }

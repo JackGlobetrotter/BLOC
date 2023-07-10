@@ -11,7 +11,9 @@ export type Channels =
   | 'runmode-change'
   | 'get-runtime-settings'
   | 'get-app-version'
-  | 'resize';
+  | 'resize'
+  | 'get-app-update'
+  | 'update-handler';
 
 const validChannels = [
   'get-monitors',
@@ -23,6 +25,8 @@ const validChannels = [
   'runmode-change',
   'get-app-version',
   'resize',
+  'get-app-update',
+  'update-handler',
 ];
 
 const electronHandler = {

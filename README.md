@@ -66,6 +66,10 @@ All downloads are hosted on the [release page](https://github.com/JackGlobetrott
 
 ## Changelog
 
+Full changelog is available [here](https://github.com/JackGlobetrotter/bloc/blob/main/Changelog.md).
+
+v1.0.2 - Update handeling
+v1.0.1 - Icon update
 v1.0.0 - Inital release version
 
 <a id="build"></a>

@@ -1,3 +1,7 @@
+## v1.0.2
+
+- Added update handeling and messages
+
 ## v1.0.1
 
 - Changed Icon

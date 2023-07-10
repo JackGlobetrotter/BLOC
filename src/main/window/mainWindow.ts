@@ -6,6 +6,8 @@ import { AppUpdater } from './helper';
 
 // eslint-disable-next-line import/no-mutable-exports
 let mainWindow: BrowserWindow | null = null;
+// eslint-disable-next-line import/no-mutable-exports
+let autoUpdater: AppUpdater | null = null;
 
 const createMainWindow = async () => {
   const RESOURCES_PATH = app.isPackaged
@@ -58,7 +60,7 @@ const createMainWindow = async () => {
 
   // Remove this if your app does not use auto updates
   // eslint-disable-next-line
-  new AppUpdater();
+  autoUpdater = new AppUpdater();
 };
 
-export { createMainWindow, mainWindow };
+export { createMainWindow, mainWindow, autoUpdater };
