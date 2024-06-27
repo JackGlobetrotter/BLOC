@@ -1,12 +1,11 @@
 # BLOC - Line bisection pc task
 
-**DISCLAIMER: This app is currenty undergoing empirical validation, use at your own discretion for clinical purposes.**
-
 1. [Downloads](#downloads)
 2. [Instructions](#instructions)
 3. [Changelog](#changelog)
 4. [Building and Contributing](#build)
-5. [Other Documents](#docs)
+5. [Validation Study](#validation)
+6. [Other Documents](#docs)
 
 <a id="downloads"></a>
 
@@ -117,11 +116,12 @@ KEYCHAIN_PROFILE=<KEYCHAIN NAME GIVEN IN THE PREVIOUS STEP>
 
 To come.
 
-<a id="docs"></a>
-
+<a id="validation"></a>
 ## Validation
-[Coline Bouyer, Manuel Gimenes, Jakob Dickert, Siobhan Vicente, Véronique Stal, Michel Wager & Vanessa Baudiffier (2023) Validation of the BLOC test: A computerized oral line bisection task in French healthy participants, Applied Neuropsychology: Adult, DOI: 10.1080/23279095.2023.2290190] (https://www.tandfonline.com/doi/full/10.1080/23279095.2023.2290190)
+Coline Bouyer, Manuel Gimenes, Jakob Dickert, Siobhan Vicente, Véronique Stal, Michel Wager & Vanessa Baudiffier (2023) Validation of the BLOC test: A computerized oral line bisection task in French healthy participants, Applied Neuropsychology: Adult, DOI: 10.1080/23279095.2023.2290190] (https://www.tandfonline.com/doi/full/10.1080/23279095.2023.2290190)
 
+
+<a id="docs"></a>
 ## Other documents
 
 ### [Assessment for paper line bissection](https://github.com/JackGlobetrotter/bloc/blob/main/docs/FeuilleDePassation.pdf) ([Download](https://raw.githubusercontent.com/JackGlobetrotter/bloc/main/docs/FeuilleDePassation.pdf))
